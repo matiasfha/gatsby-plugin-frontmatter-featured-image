@@ -5,7 +5,7 @@ file and create a file node to be used with `gatsby-plugin-image` or `gatsby-ima
 # How to install
 Just install as any other gatsby plugin! 
 
-`$ npm install gatsby-plugin-frontmatter-featured-image`
+`$ npm install @matiasfha/gatsby-plugin-frontmatter-featured-image`
 
 or 
 
@@ -14,7 +14,7 @@ or
 then add this to your `gatsby-config.js` file as a plugin
 ```
 {
-  resolve: `gatsby-plugin-frontmatter-featured-image,
+  resolve: `@matiasfha/gatsby-plugin-frontmatter-featured-image,
   options: {
     image: 'featuredImage'
     }
