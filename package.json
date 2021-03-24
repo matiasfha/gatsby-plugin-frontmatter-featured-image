@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/matiasfha/gatsby-plugin-frontmatter-featured-image"
+    "url": "git+https://github.com/matiasfha/gatsby-plugin-frontmatter-featured-image.git"
   },
   "author": "Matias Hernandez <hola@matiashernandez.dev> (https://matiashernandez.dev)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "gatsby": "3.1.2",
     "gatsby-source-filesystem": "3.1.0",
@@ -27,5 +27,9 @@
     "gatsby-plugin-sharp": "3.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/matiasfha/gatsby-plugin-frontmatter-featured-image/issues"
+  },
+  "homepage": "https://github.com/matiasfha/gatsby-plugin-frontmatter-featured-image#readme"
 }
