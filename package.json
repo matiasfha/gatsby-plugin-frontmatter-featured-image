@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Read frontmatter featured image and create a local image",
   "main": "gatsby-node.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "gatsby",
     "gatsby-image-plugin",
@@ -14,7 +11,11 @@
     "frontmatter",
     "optimized image"
   ],
-  "author": "Matias Hernandez <matiasfh@gmail.com> (https://matiashernandez.dev)",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/matiasfha/gatsby-plugin-frontmatter-featured-image"
+  },
+  "author": "Matias Hernandez <hola@matiashernandez.dev> (https://matiashernandez.dev)",
   "license": "ISC",
   "dependencies": {
     "gatsby": "3.1.2",
