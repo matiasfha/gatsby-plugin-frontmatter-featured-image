@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-frontmatter-featured-image",
+  "name": "@matiasfha/gatsby-plugin-frontmatter-featured-image",
   "version": "1.0.0",
   "description": "Read frontmatter featured image and create a local image",
   "main": "gatsby-node.js",
@@ -13,13 +13,14 @@
   ],
   "repository": {
     "type": "git",
-    "url":"https://github.com/matiasfha/gatsby-plugin-frontmatter-featured-image"
+    "url": "https://github.com/matiasfha/gatsby-plugin-frontmatter-featured-image"
   },
   "author": "Matias Hernandez <hola@matiashernandez.dev> (https://matiashernandez.dev)",
   "license": "ISC",
   "dependencies": {
     "gatsby": "3.1.2",
-    "gatsby-source-filesystem": "3.1.0"
+    "gatsby-source-filesystem": "3.1.0",
+    "join": "3.0.0"
   },
   "devDependencies": {
     "gatsby-plugin-image": "1.1.2",
